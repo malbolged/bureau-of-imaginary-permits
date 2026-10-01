@@ -1,0 +1,32 @@
+{
+  "name": "desk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@bureau/workflows": "workspace:*",
+    "@sanity/sdk": "^3.7.0",
+    "@sanity/sdk-react": "^3.7.0",
+    "@sanity/workflow-engine": "0.36.0",
+    "@sanity/workflow-react": "0.36.0",
+    "@sanity/workflow-sdk": "0.36.0",
+    "@sanity/workflow-components": "0.36.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "styled-components": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "sanity": "^6.17.0",
+    "typescript": "^5"
+  }
+}

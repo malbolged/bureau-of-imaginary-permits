@@ -1,0 +1,11 @@
+{
+  "name": "bureau-of-imaginary-permits",
+  "private": true,
+  "scripts": {
+    "dev:studio": "pnpm --filter studio dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev:desk": "pnpm --filter desk dev",
+    "seed": "pnpm --filter studio seed",
+    "workflows:deploy": "pnpm --filter @bureau/workflows deploy:defs"
+  }
+}

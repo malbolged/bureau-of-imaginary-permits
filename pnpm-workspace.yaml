@@ -1,0 +1,9 @@
+packages:
+  - workflows
+  - studio
+  - web
+  - desk
+
+# @sanity/workflow-sdk README: SDK 3.1 can resolve @sanity/mutate 0.18.1, which leaves reads pending.
+overrides:
+  '@sanity/sdk@3>@sanity/mutate': 0.18.2
